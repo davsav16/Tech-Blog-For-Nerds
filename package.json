@@ -1,0 +1,27 @@
+{
+  "name": "Tech-Blog-For-Nerds",
+  "version": "1.0.0",
+  "description": "## User Story As a developer I want a CMS-style blog site so that I can publish articles, blog posts, and my thoughts and opinions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davsav16/Tech-Blog-For-Nerds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davsav16/Tech-Blog-For-Nerds/issues"
+  },
+  "homepage": "https://github.com/davsav16/Tech-Blog-For-Nerds#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
