@@ -37,6 +37,7 @@
   }
   
   .post-list {
+    list-style: none;
     margin: 0;
     padding: 0;
   }
@@ -53,7 +54,7 @@
   }
   
   textarea {
-    min-width: 40%;
+    min-width: 0%;
     min-height: 100px;
   }
   
@@ -80,10 +81,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
+    background-color: lightblue;
   }
   
   header h1 {
-    font-size: 1em;
+    font-size: 3em;
   }
   
   main {
@@ -129,8 +131,9 @@
   }
   
   .edit-link {
+    text-align: center;
     display: block;
-    margin: -1.5% 0 2% 0;
+    margin: 1% 0 2% 0;
   }
   
   .upvote-btn {
@@ -164,15 +167,77 @@
   .new-post-form input {
     width: 300px;
   }
+
+  .new h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #225ca3;
+  }
+
+  .new form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .new button {
+    color: #225ca3;
+  }
   
   .edit-post-form {
     margin-bottom: 5%;
   }
   
   footer {
+    color: #225ca3;
     border-top: 1px solid #ccc;
     display: flex;
     justify-content: center;
     padding: 1%;
     font-size: 110%;
   }
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  font-size: .7rem;
+}
+
+.card-title {
+  font-size: 2.5rem;
+}
+
+.login {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.your-posts ol {
+  list-style: none;
+}
+
+.your-posts h2 {
+  color: #225ca3;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.post-url {
+  width: 70%;
+  height: 5rem;
+}
+
+.blog-text {
+  height: 200px;
+  width: 70%;
+}
+
+
+

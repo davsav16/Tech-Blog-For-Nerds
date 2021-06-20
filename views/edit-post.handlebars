@@ -1,21 +1,24 @@
 <article>
   <a href="/dashboard"> &larr; Back to dashboard</a>
   <h2>
-    Edit Post
+    Edit {{post.title}}
   </h2>
   <form class="edit-post-form">
     <div>
+      <h4>Edit Title</h4>
       <input name="post-title" type="text" value="{{post.title}}" />
-      <input name="post_url" type="text" value="post.post_url" />
+      <h4>Edit Content</h4>
+      <input name="post_url" type="text" value="{{post.post_url}}" class="blog-text" />
     </div>
     <div>
-      by you on {{format_date post.created_at}}
-      <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
+      Created by you on {{format_date post.created_at}}
     </div>
     <button type="submit">Save blog</button>
     <button type="button" class="delete-post-btn">Delete post</button>
   </form>
 </article>
+
+<a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
 
 {{> comments post.comments}}
 
