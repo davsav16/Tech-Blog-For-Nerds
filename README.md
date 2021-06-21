@@ -23,5 +23,5 @@ As a developer I want a CMS-style blog site so that I can publish articles, blog
 https://afternoon-castle-80416.herokuapp.com/
 
 ## Screenshot
-
+![Tec blog shot](https://user-images.githubusercontent.com/77703087/122704695-6e324f80-d211-11eb-9488-a8806643640b.PNG)
 
