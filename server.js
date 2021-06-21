@@ -23,7 +23,7 @@ const sess = {
     db: sequelize
   }),
   cookie: {
-    maxAge: 300000,
+    maxAge: 600000,
   }
 };
 
