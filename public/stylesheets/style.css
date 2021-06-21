@@ -54,7 +54,7 @@
   }
   
   textarea {
-    min-width: 0%;
+    min-width: 80%;
     min-height: 100px;
   }
   
@@ -165,7 +165,23 @@
   }
   
   .new-post-form input {
-    width: 300px;
+    width: 100%;
+  }
+
+  .new-post-form textarea {
+    width: 100%;
+  }
+
+  .new-post-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .newBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 
   .new h2 {
@@ -236,7 +252,7 @@
 
 .blog-text {
   height: 200px;
-  width: 70%;
+  width: 83%;
 }
 
 
