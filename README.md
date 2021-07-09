@@ -1,7 +1,7 @@
 # Tech Blog For Nerds
 
 ## User Story
-As a developer I want a CMS-style blog site so that I can publish articles, blog posts, and my thoughts and opinions.
+As a developer I want a CMS-style blog site so that I can publish articles, blog posts, and my thoughts and opinions. This app allows developers to create an online profile and then engage and post about different technical news and updates throught the world.
 
 ## Used 
 - RESTful APIS 
